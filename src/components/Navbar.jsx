@@ -143,7 +143,7 @@ export default function Navbar() {
           <div className="hidden sm:flex items-center gap-2">
             {[
               { icon: Github, href: 'https://github.com/PranoyAcharyya', label: 'GitHub' },
-              { icon: Linkedin, href: 'www.linkedin.com/in/pranoy-acharyya-4244b81b8', label: 'LinkedIn' },
+              { icon: Linkedin, href: 'https://www.linkedin.com/in/pranoy-acharyya-4244b81b8/', label: 'LinkedIn' },
             ].map(({ icon: Icon, href, label }) => (
               <motion.a
                 key={label}

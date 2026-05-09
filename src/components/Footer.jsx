@@ -22,7 +22,7 @@ export default function Footer() {
               A
             </div>
             <span className={`font-display font-semibold text-sm ${isDark ? 'text-white/70' : 'text-black/70'}`}>
-              Alex Chen — Frontend Developer
+              Pranoy Acharyya — Web Developer
             </span>
           </div>
 
@@ -36,10 +36,9 @@ export default function Footer() {
           {/* Socials */}
           <div className="flex items-center gap-3">
             {[
-              { icon: Github, href: '#' },
-              { icon: Linkedin, href: '#' },
-              { icon: Twitter, href: '#' },
-              { icon: Mail, href: 'mailto:hello@alexchen.dev' },
+              { icon: Github, href: 'https://github.com/PranoyAcharyya' },
+              { icon: Linkedin, href: 'www.linkedin.com/in/pranoy-acharyya-4244b81b8' },
+              { icon: Mail, href: 'mailto:acharyapranoy@gmail.com' },
             ].map(({ icon: Icon, href }, i) => (
               <motion.a
                 key={i}
