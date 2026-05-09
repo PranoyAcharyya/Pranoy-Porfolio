@@ -26,7 +26,7 @@ function PortfolioApp() {
         <Experience />
         <Education />
         <Projects />
-        <Testimonials />
+        {/* <Testimonials /> */}
         <Contact />
       </main>
       <Footer />
