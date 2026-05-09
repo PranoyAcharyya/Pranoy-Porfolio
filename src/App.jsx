@@ -12,10 +12,13 @@ import Education from './sections/Education'
 import Projects from './sections/Projects'
 import Testimonials from './sections/Testimonials'
 import Contact from './sections/Contact'
+import SmoothScroll from './{components,sections,hooks,animations,assets,pages,utils}/SmoothScroll'
+SmoothScroll
 
 function PortfolioApp() {
   return (
     <div className="relative noise-overlay">
+      <SmoothScroll/>
       <CustomCursor />
       <ScrollProgress />
       <Navbar />

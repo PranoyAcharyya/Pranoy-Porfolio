@@ -142,9 +142,8 @@ export default function Navbar() {
           {/* Socials */}
           <div className="hidden sm:flex items-center gap-2">
             {[
-              { icon: Github, href: '#', label: 'GitHub' },
-              { icon: Linkedin, href: '#', label: 'LinkedIn' },
-              { icon: Twitter, href: '#', label: 'Twitter' },
+              { icon: Github, href: 'https://github.com/PranoyAcharyya', label: 'GitHub' },
+              { icon: Linkedin, href: 'www.linkedin.com/in/pranoy-acharyya-4244b81b8', label: 'LinkedIn' },
             ].map(({ icon: Icon, href, label }) => (
               <motion.a
                 key={label}
