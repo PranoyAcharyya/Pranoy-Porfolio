@@ -4,18 +4,21 @@ import { useTheme } from "../hooks/useTheme";
 import { staggerContainer, fadeInUp } from "../animations/variants";
 
 const skills = [
-  { name: "React", level: 95, color: "#61dafb", icon: "⚛️" },
-  { name: "JavaScript", level: 92, color: "#f7df1e", icon: "🟨" },
-  { name: "TypeScript", level: 85, color: "#3178c6", icon: "🔷" },
-  { name: "Tailwind CSS", level: 95, color: "#38bdf8", icon: "💨" },
-  { name: "GSAP", level: 80, color: "#88ce02", icon: "🎬" },
-  { name: "Framer Motion", level: 85, color: "#ff0055", icon: "🎭" },
-  { name: "Laravel", level: 75, color: "#ff2d20", icon: "🔴" },
-  { name: "Node.js", level: 78, color: "#339933", icon: "🟢" },
-  { name: "Firebase", level: 72, color: "#ffca28", icon: "🔥" },
-  { name: "Git", level: 90, color: "#f05032", icon: "📦" },
-  { name: "REST API", level: 88, color: "#a855f7", icon: "🔌" },
+  { name: "React.js", level: 90, color: "#61dafb", icon: "⚛️" },
   { name: "Next.js", level: 82, color: "#ffffff", icon: "▲" },
+  { name: "JavaScript", level: 88, color: "#f7df1e", icon: "🟨" },
+  { name: "Redux Toolkit", level: 78, color: "#764abc", icon: "🟣" },
+  { name: "TanStack Query", level: 72, color: "#ff4154", icon: "🔺" },
+  { name: "Tailwind CSS", level: 90, color: "#38bdf8", icon: "💨" },
+  { name: "Bootstrap", level: 85, color: "#7952b3", icon: "🅱️" },
+  { name: "Framer Motion", level: 80, color: "#ff0055", icon: "🎭" },
+  { name: "WordPress", level: 88, color: "#21759b", icon: "📰" },
+  { name: "WooCommerce", level: 82, color: "#96588a", icon: "🛒" },
+  { name: "Elementor", level: 85, color: "#92003b", icon: "🧩" },
+  { name: "PHP", level: 60, color: "#777bb4", icon: "🐘" },
+  { name: "Laravel", level: 50, color: "#ff2d20", icon: "🔴" },
+  { name: "REST API", level: 80, color: "#a855f7", icon: "🔌" },
+  { name: "Git & GitHub", level: 82, color: "#f05032", icon: "📦" },
 ];
 
 const categories = [
@@ -234,45 +237,7 @@ export default function Skills() {
           ))}
         </div>
 
-        {/* Additional tools section */}
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          animate={inView ? { opacity: 1, y: 0 } : {}}
-          transition={{ delay: 0.8, duration: 0.6 }}
-          className="mt-12 text-center"
-        >
-          <p
-            className={`text-sm font-body mb-4 ${isDark ? "text-white/30" : "text-black/30"}`}
-          >
-            Also familiar with
-          </p>
-          <div className="flex flex-wrap justify-center gap-3">
-            {[
-              "Docker",
-              "PostgreSQL",
-              "Redis",
-              "GraphQL",
-              "Figma",
-              "AWS",
-              "Vercel",
-              "Webpack",
-            ].map((tool, i) => (
-              <motion.span
-                key={tool}
-                initial={{ opacity: 0, y: 10 }}
-                animate={inView ? { opacity: 1, y: 0 } : {}}
-                transition={{ delay: 0.9 + i * 0.05 }}
-                className={`text-sm font-body px-4 py-2 rounded-full ${
-                  isDark
-                    ? "text-white/40 border border-white/8 bg-white/3"
-                    : "text-black/40 border border-black/8 bg-black/3"
-                }`}
-              >
-                {tool}
-              </motion.span>
-            ))}
-          </div>
-        </motion.div>
+      
       </div>
     </section>
   );
