@@ -451,7 +451,7 @@ export default function Hero() {
               {/* Floating tech badges */}
               {[
                 { label: "React", x: -20, y: 20, color: "#61dafb", delay: 0 },
-                { label: "GSAP", x: 20, y: -10, color: "#88ce02", delay: 0.3 },
+                { label: "Wordpress", x: 20, y: -10, color: "#88ce02", delay: 0.3 },
                 {
                   label: "Tailwind",
                   x: -15,
