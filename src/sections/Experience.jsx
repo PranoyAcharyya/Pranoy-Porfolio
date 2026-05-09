@@ -6,50 +6,21 @@ import { Calendar, MapPin, ExternalLink } from 'lucide-react'
 
 const experiences = [
   {
-    title: 'Senior Frontend Engineer',
-    company: 'TechFlow Inc.',
-    location: 'San Francisco, CA',
+    title: 'Web Developer',
+    company: 'Webskitters Technology Solution Pvt.Ltd',
+    location: 'Salt Lake, Kolkata , WB , India',
     period: '2022 – Present',
     type: 'Full-time',
     color: '#fc032c',
-    description: 'Leading frontend development for a SaaS platform serving 100K+ users. Architected a micro-frontend system reducing bundle size by 45%. Mentoring a team of 4 junior developers.',
+    description: 'Delivered end-to-end WordPress website development aligned with project requirements',
     achievements: [
-      'Reduced Core Web Vitals score by 40% through performance optimization',
-      'Built a component library used across 5 product teams',
-      'Implemented real-time features using WebSockets and React Query'
+      'Designed and implemented responsive UI layouts using Elementor with strong usability focus',
+      'Converted design mockups into optimized, functional pages with minimal plugin reliance',
+      'Built and customized WooCommerce solutions, including product pages and checkout systems',
+      'Ensured platform stability through regular maintenance, updates, and issue resolution',
     ],
-    stack: ['React', 'TypeScript', 'GSAP', 'Node.js', 'AWS']
-  },
-  {
-    title: 'Frontend Developer',
-    company: 'Creative Labs',
-    location: 'Remote',
-    period: '2020 – 2022',
-    type: 'Full-time',
-    color: '#1703fc',
-    description: 'Built and maintained 15+ client websites and web apps. Specialized in animation-heavy interfaces and interactive experiences using GSAP and Framer Motion.',
-    achievements: [
-      'Delivered award-winning portfolio sites for 3 design agencies',
-      'Built custom CMS integrations for headless WordPress setups',
-      'Increased client satisfaction scores by 35%'
-    ],
-    stack: ['React', 'GSAP', 'Framer Motion', 'Tailwind', 'Laravel']
-  },
-  {
-    title: 'Junior Web Developer',
-    company: 'StartupXYZ',
-    location: 'New York, NY',
-    period: '2019 – 2020',
-    type: 'Full-time',
-    color: '#8b5cf6',
-    description: 'Started career building full-stack web applications for early-stage startups. Contributed to product development from 0 to 10K users.',
-    achievements: [
-      'Built MVP in 3 months that secured $500K seed funding',
-      'Implemented payment integration with Stripe',
-      'Created mobile-first responsive designs for all product pages'
-    ],
-    stack: ['JavaScript', 'React', 'Firebase', 'CSS3']
-  },
+    stack: ['Wordpress', 'Elementor', 'JS', 'PHP']
+  }
 ]
 
 export default function Experience() {

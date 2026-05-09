@@ -359,99 +359,24 @@ export default function Hero() {
                   }}
                 >
                   {/* Abstract developer avatar */}
-                  <svg
-                    viewBox="0 0 200 220"
-                    className="w-[85%] h-[85%]"
-                    fill="none"
-                  >
-                    {/* Body */}
-                    <ellipse
-                      cx="100"
-                      cy="185"
-                      rx="60"
-                      ry="35"
-                      fill={isDark ? "#111" : "#ddd"}
-                    />
-                    {/* Shirt */}
-                    <path
-                      d="M55 175 Q100 165 145 175 Q140 195 100 200 Q60 195 55 175z"
-                      fill="url(#shirtGrad)"
-                    />
-                    {/* Head */}
-                    <circle
-                      cx="100"
-                      cy="90"
-                      r="45"
-                      fill={isDark ? "#2a1a1a" : "#e8d5c4"}
-                    />
-                    {/* Hair */}
-                    <path
-                      d="M60 75 Q100 45 140 75 Q135 55 100 50 Q65 55 60 75z"
-                      fill={isDark ? "#fc032c" : "#333"}
-                    />
-                    {/* Eyes */}
-                    <circle
-                      cx="84"
-                      cy="88"
-                      r="5"
-                      fill={isDark ? "#fff" : "#333"}
-                    />
-                    <circle
-                      cx="116"
-                      cy="88"
-                      r="5"
-                      fill={isDark ? "#fff" : "#333"}
-                    />
-                    <circle
-                      cx="85"
-                      cy="88"
-                      r="2.5"
-                      fill={isDark ? "#1703fc" : "#1703fc"}
-                    />
-                    <circle
-                      cx="117"
-                      cy="88"
-                      r="2.5"
-                      fill={isDark ? "#1703fc" : "#1703fc"}
-                    />
-                    {/* Smile */}
-                    <path
-                      d="M88 102 Q100 110 112 102"
-                      stroke={isDark ? "#fff" : "#333"}
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      fill="none"
-                    />
-                    {/* Code brackets on shirt */}
-                    <text
-                      x="83"
-                      y="182"
-                      fill="white"
-                      fontSize="14"
-                      fontFamily="monospace"
-                    >
-                      &lt;/&gt;
-                    </text>
-                    <defs>
-                      <linearGradient
-                        id="shirtGrad"
-                        x1="0"
-                        y1="0"
-                        x2="1"
-                        y2="1"
-                      >
-                        <stop offset="0%" stopColor="#1703fc" />
-                        <stop offset="100%" stopColor="#fc032c" />
-                      </linearGradient>
-                    </defs>
-                  </svg>
+                  <img
+                    src="/dp.jfif"
+                    alt="Pranoy"
+                    className="w-full h-full object-cover"
+                  />
                 </div>
               </motion.div>
 
               {/* Floating tech badges */}
               {[
                 { label: "React", x: -20, y: 20, color: "#61dafb", delay: 0 },
-                { label: "Wordpress", x: 20, y: -10, color: "#88ce02", delay: 0.3 },
+                {
+                  label: "Wordpress",
+                  x: 20,
+                  y: -10,
+                  color: "#88ce02",
+                  delay: 0.3,
+                },
                 {
                   label: "Tailwind",
                   x: -15,
@@ -521,7 +446,7 @@ export default function Hero() {
                 Open to full-time & freelance opportunities
               </p>
               <div className="mt-3 flex flex-wrap gap-2">
-                {["Remote", "Full-time" , "Pan-India"].map((tag) => (
+                {["Remote", "Full-time", "Pan-India"].map((tag) => (
                   <span
                     key={tag}
                     className="text-xs font-body px-2 py-1 rounded-lg"
@@ -605,7 +530,7 @@ export default function Hero() {
                   <p
                     className={`text-xs font-body ${isDark ? "text-white/40" : "text-black/40"}`}
                   >
-                     UTC+5:30 • IST
+                    UTC+5:30 • IST
                   </p>
                 </div>
               </div>
