@@ -268,7 +268,9 @@ export default function Hero() {
                 View Projects
               </motion.button>
 
-              <motion.button
+              <motion.a
+                href="/Pranoy_Acharyya.pdf"
+                target="blank"
                 whileHover={{ scale: 1.04 }}
                 whileTap={{ scale: 0.97 }}
                 className={`flex items-center gap-2 px-6 py-3 rounded-xl text-sm font-body font-medium border transition-all duration-200 ${
@@ -279,7 +281,7 @@ export default function Hero() {
               >
                 <Download size={15} />
                 Resume
-              </motion.button>
+              </motion.a>
             </motion.div>
 
             {/* Stats */}
